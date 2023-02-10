@@ -16,6 +16,7 @@
 		AF9753A82995B17100F79211 /* BookListTabelViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9753A72995B17100F79211 /* BookListTabelViewCell.swift */; };
 		AF9753AB2995C20900F79211 /* BookDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9753AA2995C20900F79211 /* BookDetailViewController.swift */; };
 		AF9753AE2995C56F00F79211 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9753AD2995C56F00F79211 /* Book.swift */; };
+		AF9753B22995C77700F79211 /* BookController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9753B12995C77700F79211 /* BookController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		AF9753A72995B17100F79211 /* BookListTabelViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListTabelViewCell.swift; sourceTree = "<group>"; };
 		AF9753AA2995C20900F79211 /* BookDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailViewController.swift; sourceTree = "<group>"; };
 		AF9753AD2995C56F00F79211 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		AF9753B12995C77700F79211 /* BookController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				AF9753AC2995C21300F79211 /* View Controllers */,
+				AF9753B02995C76000F79211 /* Model Controller */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -122,6 +125,14 @@
 				AF9753AD2995C56F00F79211 /* Book.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		AF9753B02995C76000F79211 /* Model Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AF9753B12995C77700F79211 /* BookController.swift */,
+			);
+			path = "Model Controller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +212,7 @@
 				419B178227987EBC00423A18 /* SceneDelegate.swift in Sources */,
 				AF9753A52995AC7200F79211 /* BookListTableViewController.swift in Sources */,
 				AF9753AB2995C20900F79211 /* BookDetailViewController.swift in Sources */,
+				AF9753B22995C77700F79211 /* BookController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
